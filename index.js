@@ -1,4 +1,3 @@
-// require new relic at the top only in production environment
 const config = require('config');
 const path = require('path');
 
