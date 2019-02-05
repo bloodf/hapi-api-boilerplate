@@ -1,0 +1,16 @@
+{
+  "app": {
+    "port": "3030",
+    "name": "HapiBoilerPlate",
+    "apiVersion": "v1",
+    "logLevel": "info"
+  },
+  "db": {
+    "name": "",
+    "host": "localhost",
+    "user": "",
+    "password": "",
+    "test": "",
+    "dialect": ""
+  }
+}

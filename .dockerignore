@@ -1,0 +1,8 @@
+Dockerfile
+*.md
+coverage
+node_modules
+exemplosWER
+.*
+!.eslintrc
+!.istanbul.yml

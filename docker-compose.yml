@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  postgres:
+    image: postgres:latest
+    env_file: bin/dev.env
+  api:
+    image: node:alpine
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+    command: ["npm", "install", "&&", "npm", "run", "dev"]
+    env_file: bin/dev.env
+    ports:
+      - "3030:3030"
+      - "9229:9229"

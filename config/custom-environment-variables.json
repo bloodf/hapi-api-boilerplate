@@ -1,0 +1,17 @@
+{
+  "app": {
+    "port": "APP_PORT",
+    "apiVersion": "API_VERSION",
+    "name": "APP_NAME",
+    "logLevel": "LOG_LEVEL",
+    "env": "NODE_ENV"
+  },
+  "db": {
+    "name": "POSTGRES_DB",
+    "host": "DB_HOST",
+    "user": "POSTGRES_USER",
+    "password": "POSTGRES_PASSWORD",
+    "test": "DB_TEST",
+    "dialect": "DB_DIALECT"
+  }
+}
